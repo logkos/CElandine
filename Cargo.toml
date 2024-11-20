@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "src/Core",
+    "src/Nk",
+    "src/Nkldr",
+    "src/Shell"
+]

@@ -1,0 +1,17 @@
+[package]
+name = "Nk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derive_more = { version = "1.0.0", features = ["from"], default-features = false }
+
+[[bin]]
+name = "nkrnl"
+path = "src/main.rs"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

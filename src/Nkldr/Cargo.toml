@@ -1,0 +1,8 @@
+[package]
+name = "Nkldr"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "nkldr"
+path = "src/main.rs"

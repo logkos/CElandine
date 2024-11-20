@@ -1,0 +1,11 @@
+[package]
+name = "Shell"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+windows-win = "3.0.0"
+
+[[bin]]
+name = "Shell"
+path = "src/main.rs"
